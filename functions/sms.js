@@ -883,7 +883,7 @@ async function smsBomber({ phone, amount }) {
                 });
             } 
 
-            function baydöner(no) {
+            function baydoner(no) {
                 if (dataSb.success >= dataSb.amount) return systemFinished();
                 dataSb.total++;
                 request.post({
@@ -1271,7 +1271,7 @@ async function smsBomber({ phone, amount }) {
                 taksim(no); // 26
                 toptanteslim(no); // 27
                 starbucks(no); // 28
-                baydöner(no); // 29
+                baydoner(no); // 29
                 pidem(no); // 30
                 bodrumbelediyesi(no); // 31
                 frink(no); // 32
